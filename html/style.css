@@ -1,0 +1,89 @@
+/*------------------------------------------*/
+/* Body Styles */
+body{
+	background-image: url(https://cdn5.vectorstock.com/i/1000x1000/67/69/lightning-and-thunder-bolt-effect-background-vector-22856769.jpg);
+	background-size: cover;
+	color: green;
+}
+
+/*------------------------------------------*/
+/* Header Styles */
+h1{
+	text-align: center;
+	color: red; 
+}
+
+h4, h2, h3{
+	color: green;
+}
+
+/*------------------------------------------*/
+/* Paragraph Styles */
+p{
+	color: yellow;
+}
+
+/*------------------------------------------*/
+/* Line Styles */
+li{
+	float: left;
+}
+
+/*------------------------------------------*/
+/* Table Styles */
+table, th, td, {
+  border: 1px solid black;
+  
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+/* Ul Link Styles */
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active){
+	background-color: #111;
+}
+
+.active{
+	background-color: #4CAF50;
+}
+/* Link Styles */
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: yellow;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: blue;
+}
+
+/* UL styles */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gif{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
