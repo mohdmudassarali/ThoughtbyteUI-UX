@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home page</title>
+	<h1 align="center">Welcome to my page</h1>
+</head>
+<body>
+<!--below style can be done in CSS more accurately-->
+<link rel="stylesheet" type="text/css" href="C:\Users\mudas\Desktop\thoughtbytre\html\style.css">
+<button style="float: right;"><a href="http://google.com">Go to Google</a></button>
+<ul>
+    <li><a href="C:\Users\mudas\Desktop\thoughtbytre\html\basics.html">Basics</a></li>
+    <li><a href="C:\Users\mudas\Desktop\thoughtbytre\html\elements.html">Elements</a></li>
+    <li><a href="C:\Users\mudas\Desktop\thoughtbytre\html\attributes.html">Attributes</a></li>
+</ul> <br>
+
+<style>
+	tr:hover {background-color:#f5f5f5;}
+</style>
+
+<br>
+<strong>
+	<p title="myPage">Hello!.<br> This page is created to practice HTML</p>
+</strong>
+
+<i>
+	<h4>Click below to know about me</h4>
+</i>
+
+<a href="file:///C:/Users/mudas/Desktop/thoughtbytre/html/aboutMe.html">
+	<img src="C:\Users\mudas\Desktop\thoughtbytre\html\imgs\click-here-button-transparent.png"><br>
+
+</a>
+
+
+<h2>Sample Data</h2>
+<p>This is a sample data for practicing tables in html.</p>
+
+<table style="width:100%">
+	<caption>My Sample Data</caption>
+
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+    <th>Contact no.</th>
+    <th>Address</th>
+
+  </tr>
+  <tr>
+    <td>Mohammed Mudassar</td>
+    <td>Ali</td>
+    <td>28</td>
+    <td>1234567890</td>
+    <td>xyz</td>
+  </tr>
+  <tr>
+    <td>Tom</td>
+    <td>Cruise</td>
+    <td>56</td>
+    <td>1234567890</td>
+    <td>xyz</td>
+  </tr>
+  <tr>
+    <td>Chris</td>
+    <td>Jones</td>
+    <td>30</td>
+    <td>1234567890</td>
+    <td>xyz</td>
+  </tr>
+<div style="text-align: center">
+  
+  <button onclick="play()">&#x23f5;</button>
+  <button onclick="pause()">&#x23f8;</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  
+  <br>
+  <br>
+
+  
+
+  <video id="sampleVideo" height="300" width="400" autoplay loop>
+    
+    <source src="C:\Users\mudas\Desktop\thoughtbytre\html\video\SampleVideo_1280x720_5mb.mp4" type="video/mp4">
+    
+  </video>
+</div>
+
+<script>
+  
+  var myVideo = document.getElementById('sampleVideo');
+
+  function play() {
+    myVideo.play();
+  }
+    
+function pause() {
+  myVideo.pause();
+}
+
+function makeBig() {
+  myVideo.width = 600;
+}
+
+function makeSmall() {
+  // body...
+  myVideo.width = 300
+}
+
+function makeNormal() {
+  // body...
+  myVideo.width = 400;
+}
+</script>
+
+<p align="center">Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+</table>
+
+</body>
+
+</html>
